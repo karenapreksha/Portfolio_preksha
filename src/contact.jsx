@@ -53,9 +53,9 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: i * 0.1 }}
             viewport={{ once: true }}
-            className={`w-20 h-20 flex flex-col items-center justify-center border border-gray-600 bg-[#1e1e2f] rounded-full transition text-center ${item.color}`}
+            className={`w-20 h-20 flex flex-col items-center justify-center border border-white-600 bg-black rounded-full transition text-center ${item.color}`}
           >
-            <img src={item.icon} alt={item.name} className="w-19- h-19 mb-0" />
+            <img src={item.icon} alt={item.name} className="w-10- h-10 mb-0" />
           </motion.a>
         ))}
       </div>

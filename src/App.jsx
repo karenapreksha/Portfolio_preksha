@@ -361,7 +361,7 @@ const App = () => {
           ))}
         </div>
       </section>
-      <hr className="my-16 border-t border-gray-700 w-full" />
+      <hr className="my-0 border-t border-gray-700 w-full" />
 
       <Contact />
     </main>
