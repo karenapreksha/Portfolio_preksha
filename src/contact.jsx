@@ -41,7 +41,7 @@ const Contact = () => {
         Contact Me
       </motion.h2>
 
-      <div className="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap- justify-items-center">
+<div className="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-items-center">
         {contacts.map((item, i) => (
           <motion.a
             key={i}

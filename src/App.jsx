@@ -62,7 +62,7 @@ const projects = [
   },
 
   {
-    name: "Booking App",
+    name: "Bookink App",
     logo: "https://play-lh.googleusercontent.com/qBzlEMbMc4bS5tOZ6H12DwrDgkerfvdhkgxaQukh0Rgot7SKaV1qqmCSY4a8O9fLsr4=w480-h960-rw",
     description:
       "With BookINK Customers, finding the greatest artists to bless our city's tattoo scene has never been easier. Our app provides a seamless experience, allowing you to easily search for studios and artists in your city, complete with comprehensive reviews, portfolios, and instant consultations and messaging.",
@@ -194,13 +194,7 @@ const App = () => {
                 advancing mobile ecosystem.
               </p>
             </div>
-            <a
-              href="/Preksha_Karena_Resume.pdf"
-              download
-              className="inline-block mt-6 text-white underline underline-offset-4 decoration-1 hover:text-brand transition font-semibold"
-            >
-              Download Resume
-            </a>
+           
           </div>
           <div className="flex-shrink-0">
             <img
